@@ -5,3 +5,7 @@
 1. Peek at box/vagrant/tomcat-setup.sh to see how the project files were included in /var/www/tomcat/___ and symlinked to /opt/tomcat/latest/webapps/___ (e.g. for /test)
 
 (This may all be very broken.)
+
+# Resource:
+
+https://linuxize.com/post/how-to-install-tomcat-9-on-ubuntu-18-04/
