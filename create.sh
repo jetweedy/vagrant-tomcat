@@ -24,6 +24,8 @@ cp ../../resources/tomcat-setup.sh ./tomcat-setup.sh
 cp ../../resources/tomcat.service ./tomcat.service
 cp ../../resources/tomcat-users.xml ./tomcat-users.xml
 cp ../../resources/index.jsp ./index.jsp
+cp ../../resources/hostmanager-context.xml ./hostmanager-context.xml
+cp ../../resources/manager-context.xml ./manager-context.xml
 #cp ../../resources/apache2.conf ./apache2.conf
 #cp ../../resources/apache-setup.sh ./apache-setup.sh
 #cp ../../resources/lamp-setup.sh ./lamp-setup.sh

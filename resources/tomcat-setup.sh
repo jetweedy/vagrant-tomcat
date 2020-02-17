@@ -21,7 +21,8 @@ sudo systemctl start tomcat
 #sudo systemctl enable tomcat
 #sudo ufw allow 8080/tcp
 
-#sudo nano /opt/tomcat/latest/conf/tomcat-users.xml
+sudo cp /vagrant/hostmanager-context.xml /opt/tomcat/latest/webapps/host-manager/META-INF/context.xml
+sudo cp /vagrant/manager-context.xml /opt/tomcat/latest/webapps/manager/META-INF/context.xml
 sudo cp /vagrant/tomcat-users.xml /opt/tomcat/latest/conf/tomcat-users.xml
 sudo systemctl restart tomcat
 
