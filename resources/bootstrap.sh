@@ -8,3 +8,5 @@ sudo apt-get install dos2unix -y
 
 sudo dos2unix /vagrant/tomcat-setup.sh
 sudo bash /vagrant/tomcat-setup.sh
+sudo dos2unix /vagrant/mariadb-setup.sh
+sudo bash /vagrant/mariadb-setup.sh

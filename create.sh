@@ -26,19 +26,10 @@ cp ../../resources/tomcat-users.xml ./tomcat-users.xml
 cp ../../resources/index.jsp ./index.jsp
 cp ../../resources/hostmanager-context.xml ./hostmanager-context.xml
 cp ../../resources/manager-context.xml ./manager-context.xml
-#cp ../../resources/apache2.conf ./apache2.conf
-#cp ../../resources/apache-setup.sh ./apache-setup.sh
-#cp ../../resources/lamp-setup.sh ./lamp-setup.sh
-#cp ../../resources/python-setup.sh ./python-setup.sh
-#cp ../../resources/mariadb-setup.sh ./mariadb-setup.sh
-#cp ../../resources/node-setup.sh ./node-setup.sh
-#cp ../../resources/bootstrap.sh ./bootstrap.sh
-#cp ../../resources/setup.sql ./setup.sql
-#cp ../../resources/nodeHelloWorld.js ./nodeHelloWorld.js
-#cp ../../resources/pythonHelloWorld.py ./pythonHelloWorld.py
-#cp ../../resources/phpHelloWorld.php ./phpHelloWorld.php
-#cp ../../resources/package.json ./package.json
-
+cp ../../resources/mariadb-setup.sh ./mariadb-setup.sh
+cp ../../resources/setup.sql ./setup.sql
+cp ../../resources/mysql-connector-java_8.0.19-1ubuntu16.04_all ./mysql-connector-java_8.0.19-1ubuntu16.04_all
+cp ../../resources/mysql-connector-java-8.0.19.jar ./mysql-connector-java-8.0.19.jar
 
 ### Bring up vagrant
 vagrant up
@@ -50,7 +41,7 @@ echo "====================================================="
 echo " Your machine is now ready."
 echo " Guest Port 80 is being forwarded to Host Port 8341. "
 echo " Guest Port 8080 is being forwarded to Host Port 8341. "
-echo " Once all setup scripts have run, you can access these demo pages: "
+echo " Once all setup scripts have run, you can access these pages: "
 echo ""
 echo " 			http://localhost:8341/"
 echo " 			http://localhost:8341/test"
