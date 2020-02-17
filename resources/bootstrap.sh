@@ -6,15 +6,5 @@ sudo apt-get install zip -y
 sudo apt-get install unzip -y
 sudo apt-get install dos2unix -y
 
-#sudo dos2unix /vagrant/mariadb-setup.sh
-#sudo dos2unix /vagrant/node-setup.sh
-#sudo dos2unix /vagrant/apache-setup.sh
-#sudo dos2unix /vagrant/lamp-setup.sh
-#sudo dos2unix /vagrant/python-setup.sh
-#sudo dos2unix /vagrant/react-setup.sh
-
-#sudo bash /vagrant/mariadb-setup.sh
-#sudo bash /vagrant/node-setup.sh
-#sudo bash /vagrant/apache-setup.sh
-#sudo bash /vagrant/lamp-setup.sh
-#sudo bash /vagrant/python-setup.sh
+sudo dos2unix /vagrant/tomcat-setup.sh
+sudo bash /vagrant/tomcat-setup.sh
